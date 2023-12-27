@@ -1,0 +1,28 @@
+.draw-element {
+    position: fixed;
+    color:black;
+    user-select: none;
+    cursor: grab;
+  }
+  
+  .draw-element:hover {
+    border: 2px solid red;
+  }
+  
+  .draw-element-selected {
+    border: 2px solid red;
+  }
+  
+  .draw-element-label,
+  .draw-element-button {
+    /* Styles specific to Label and Button blocks */
+    border:2px solid black
+  }
+  
+  .draw-element-label,
+  .draw-element-button,
+  .draw-element:not(.draw-element-selected) {
+    border: 1px solid #000000;
+    opacity:5px;
+  }
+  

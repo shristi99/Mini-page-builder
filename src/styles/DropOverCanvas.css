@@ -1,0 +1,16 @@
+
+
+.drop-over-canvas {
+    width: 850px;
+    height: 550px;
+    background-color: #f3f3f3;
+  }
+  
+  /* Additional styles for the DropOverCanvas component can be defined here */
+  
+  .draw-element-on-canvas {
+    outline: none;
+  }
+  
+  /* Additional styles for the DrawElementOnCanvas component can be defined here */
+  

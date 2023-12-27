@@ -1,0 +1,13 @@
+
+
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles to the container */
+.container {
+  width: 800px;
+  height: 700px;
+}

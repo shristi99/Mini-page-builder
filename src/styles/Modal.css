@@ -1,0 +1,64 @@
+
+
+.modal-overlay {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+  }
+  
+  .modal-container {
+    background-color: #ffffff;
+    width: 250px;
+    height:550px;
+    border-radius: 0.375rem; /* Equivalent to rounded-md in Tailwind */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-header {
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-body {
+    padding: 10px;
+  }
+  
+  .form-label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+
+  }
+  
+  .form-input {
+    width: 150px;
+    height: 30px;
+    padding: 0.75rem;
+    border: 1px solid #595959;
+    border-radius: 0.2rem; /* Equivalent to rounded-sm in Tailwind */
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0.5rem;
+  }
+  
+  .form-button {
+    padding: 0.5rem 1rem;
+    background-color: #0044c1;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.25rem; /* Equivalent to rounded-sm in Tailwind */
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 12px;
+  }
+  

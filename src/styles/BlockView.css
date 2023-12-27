@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Common styles for all blocks */
+.block {
+    font-size: 1rem; /* Default font size for all blocks */
+  }
+  
+  /* Styles for Input block */
+  .input-block {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #595959; /* Equivalent to text-[#595959] in Tailwind */
+  }
+  
+  /* Styles for Button block */
+  .button-block {
+    background-color: #0044C1; /* Equivalent to bg-[#0044C1] in Tailwind */
+    color: #ffffff; /* Equivalent to text-white in Tailwind */
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Styles for default block */
+  .default-block {
+    color: #000000; /* Equivalent to text-black in Tailwind */
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.375rem; /* Equivalent to rounded-md in Tailwind */
+  }
+  
